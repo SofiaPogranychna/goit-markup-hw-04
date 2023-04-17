@@ -80,6 +80,8 @@ text-decoration:none; }
     background-position: center;
     background-size: cover;
     padding: 188px 0px;
+    min-width: 1440px;
+    margin: 0 auto;
 
 }
 
@@ -90,6 +92,7 @@ text-decoration:none; }
     color: #FFFFFF;
     text-align: center;
     width: 498px;
+
     margin: 0 auto
     }
 
@@ -350,7 +353,7 @@ background-color:#404bbf;
     fill: #F4F4FD;
 }
 .footer-soc-link:is(:hover,:focus){
-    background-color: #404bbf;
+    background-color: #31D0AA;
 }
 
 /*PORTFOLIO PAGE*/
@@ -392,6 +395,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px
 
 .portfolio-list-wrapper{padding:32px 16px;border: 1px solid #E7E9FC;border-top:none;}
 .portfolio-li-wrapper:is(:hover, :focus){
+    display: block;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-head{
